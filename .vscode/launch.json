@@ -1,0 +1,52 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ze_optic_tech",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "ze_optic_tech (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "ze_optic_tech (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "physical_IPAddress",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "192.168.100.14:5555",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "iPhone 15 Pro Max",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "F2EF9929-AC54-4F40-92F3-5495E7C5D5D2",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "emulator",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554",
+      "program": "lib/main.dart"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["iPhone 15 Pro Max", "physical_IPAddress","emulator"]
+    }
+  ]
+}
