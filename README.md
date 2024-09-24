@@ -3,7 +3,4 @@
 A new Flutter project.
 
 ## Getting Started
-
-You need to get Your google api Key
-
-Then global search with your specific IDE , look for `GOOGLE API KEY` in the project and replace it with your google api key
+NB  Am aware i should not commit my keys, will revoke the key after some time
